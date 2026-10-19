@@ -1,68 +1,36 @@
-﻿# Taller de Java Basico
+﻿# â˜• Taller de Java BÃ¡sico
 
-Cumpleto taller de Java con ejercicios de cadenas, arreglos, recursion y vectores.
+Cumpleto taller de Java con ejercicios de cadenas, arreglos, recursividad y vectores.
 
-## Detalle
+## ðŸ“‹ CaracterÃ­sticas
 
-| | |
-|---|---|
-| Tipo | Consola (MVC) |
-| Archivos Java | 18 |
-| Version de Java | 21 |
-| Patron | 18 clases de modelo, una por ejercicio, con menu interactivo |
+- Ejercicios de manipulaciÃ³n de cadenas de texto
+- BÃºsqueda de subcadenas y comparaciÃ³n de texto
+- Conteo de caracteres, mÃºltiplos, pares y primos
+- Serie de Fibonacci y factoriales
+- ManipulaciÃ³n de vectores y arreglos
+- Documento de texto y clasificaciÃ³n de viajes
+- Interfaz por consola
 
-## Funcionalidades
+## ðŸ› ï¸ TecnologÃ­as
 
-- Factorial, suma de digitos, primos, Fibonacci y potencia
-- Promedios de arreglos y de pares e impares
-- Conteo de primos, pares y multiplos
-- Busqueda y manipulacion de cadenas
-- Comparacion con y sin distincion de mayusculas
+- Java
+- Maven
+- ProgramaciÃ³n orientada a objetos
 
-## Estructura del proyecto
-
-```
-tallerJavaBasico/
-|-- pom.xml       configuracion de Maven, importable desde cualquier IDE
-|-- src/          codigo fuente
-`-- README.md
-```
-
-## Como ejecutarlo
-
-### Con Maven
+## ðŸš€ CÃ³mo ejecutar
 
 ```bash
+git clone https://github.com/P2X4A/tallerJavaBasico.git
+cd tallerJavaBasico
 mvn clean compile
-mvn exec:java
+mvn exec:java -Dexec.mainClass="AplMain"
 ```
 
-### Con javac directamente
+## ðŸ‘¨â€ðŸ’» Autor
 
-```bash
-# Linux / macOS
-javac -d bin $(find src -name "*.java")
+Sergio Parra
 
-# Windows (PowerShell)
-javac -d bin (Get-ChildItem -Recurse -Filter *.java src).FullName
-```
+---
 
-```bash
-java -cp bin co.edu.unbosque.controller.AplMain
-```
-
-### Desde un IDE
-
-Cualquier IDE con soporte de Java (Eclipse, IntelliJ IDEA, VS Code o NetBeans)
-puede importar el proyecto directamente como **proyecto Maven**. Basta con abrir
-o importar la carpeta: el IDE detecta el `pom.xml`, resuelve las dependencias y
-compila sin configuracion adicional.
-
-## Autor
-
-Desarrollado por [Sergio Parra](https://github.com/P2X4A) como parte de su
-formacion en Java.
-
-## Licencia
-
-Ver el archivo [LICENSE](LICENSE).
+*Proyecto acadÃ©mico para portafolio.*
